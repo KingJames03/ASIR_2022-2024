@@ -1,0 +1,22 @@
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: 28px;
+    width: 100%;
+    background-color: #99C9D8;
+}
+
+#menu a{
+    margin: 20px 30px 35px 50px;
+    padding: 10px 15px 10px 20px;
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: #779;
+    color: azure;
+}
+a.active {
+    text-shadow: 1px 1px 1px white;
+}

@@ -1,0 +1,70 @@
+table,
+td {
+    padding: 10px;
+    border: 1px solid;
+    border-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+body {
+    background-color: #5A595A;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pasos {
+    color: #FFFFFF;
+}
+
+.asd {
+    color: #000066;
+}
+
+.titulo1 {
+    font-size: 3vh;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.titulo2 {
+    font-size: 6vh;
+    text-align: center;
+    color: #9C7D73;
+
+}
+
+.personaje {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #9999FF;
+    font-weight: bold;
+}
+
+.personaje2 {
+    background-color: #9999FF;
+    color: #000066;
+    text-align: justify;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.pie {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.negrita2 {
+    font-weight: bold;
+    text-align: justify;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contenedor {
+    margin: 0px auto;
+    width: 900px; 
+    background-color: #bbfad8;  
+}
+#cabecera, footer {
+    background-color: #eab865;
+    height: 100px;
+    width: 100%;
+}
+#centro {
+    height: 300px;
+    display: flex;
+}
+#anuncios {
+    background-color: #c6f;
+    flex: 1px
+}
+#contenidos {
+    background-color: #bad;
+    flex: 2;
+}
+menu{
+    height: 33px;
+    width: 100px;
+    background-color: #bdf;
+}
+#footer{
+    height: 25px;
+    background-color: #eab865;
+}

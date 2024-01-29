@@ -1,0 +1,36 @@
+.whiteborder{
+    border: 1px solid #FFFFFF
+}
+body{
+    background-color: #000000;
+    background-image: url(../images/bg_lines.gif);
+    background-repeat: repeat;
+}
+.homemaincopy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+    margin-right: 35px;
+    background-color: darkgray;
+}
+.footerlinks{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: #cccccc;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+a:hover{
+    color: #cccccc;
+    text-decoration: underline      ;
+}
+table{
+    background-color: #C7C7C7;
+}
+html{
+    text-align: center;
+}

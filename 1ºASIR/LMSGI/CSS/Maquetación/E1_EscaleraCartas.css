@@ -1,0 +1,33 @@
+#carta1 {
+    z-index: 5;
+    position: absolute;
+    top: 1em;
+    left: 8em;
+}
+#carta2 {
+    z-index: 10;
+    position: absolute;
+    top: 4em;
+    left: 12em;
+}
+#carta3 {
+    z-index: 15;
+    position: absolute;
+    top: 7em;
+    left: 16em;
+}
+#carta4 {
+    z-index: 20;
+    position: absolute;
+    top: 11em;
+    left: 20em;
+}
+#carta5 {
+    z-index: 25;
+    position: absolute;
+    top: 15em;
+    left: 24em;
+}
+img {
+    border: 5px solid black;
+}

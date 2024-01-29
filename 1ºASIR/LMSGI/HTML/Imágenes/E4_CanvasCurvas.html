@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+<title>Canvas</title>
+<style>
+body {
+  background: rgb(29, 31, 32); 
+}
+#curvas {
+  margin: 20px auto;
+  display: block;
+}
+</style>
+<script>
+    window.onload = function(){
+      var c = document.getElementById("curvas");
+ var cxt = c.getContext("2d");
+
+ // Un jarron dibujado con curvas cuadraticas de Bezier
+ cxt.beginPath();
+ cxt.moveTo(40,10);
+ cxt.quadraticCurveTo(100,40,60,60);
+ cxt.quadraticCurveTo(20,80,60,100);
+ cxt.lineTo(100,100);
+ cxt.quadraticCurveTo(140,80,100,60);
+ cxt.quadraticCurveTo(60,40,120,10);
+ cxt.closePath();
+ cxt.fill();
+
+ // Un dibujo con curvas cubicas de Bezier
+ cxt.beginPath();
+ cxt.moveTo(200,20);
+ cxt.bezierCurveTo(100,100,85,35,200,50);
+ cxt.bezierCurveTo(200,100,320,35,260,100);
+ cxt.stroke();
+
+ // Una esquina redondeada con la funcion arcTo
+ cxt.beginPath();
+ cxt.lineTo(10,10);
+ cxt.arcTo(40,10,40,20,20);  // Dibuja una esquina redondeada arcTo(controlX,controlY,endX,endY,radio en grados);
+ cxt.lineTo(40,40);
+ cxt.stroke();
+}
+</script>
+</head>
+<body>
+  <canvas id="curvas" width="300px" height="120px" style="border:1px solid black">
+    Tu navegador no soporta canvas. <!-- Mensaje para mostrar si el navegador no soporta la etiqueta canvas -->
+   </canvas>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+
+<body>
+
+    <form action="procesadatos.html" method="post">
+        <fieldset>
+            <legend>Datos de la incidencia:</legend>
+            <p> Usuario: <br>
+                <input type="text" name="campo de texto">
+            </p>
+
+            <p> Lista de selección: <br>
+                <select name="menu">
+                    <option value="1" selected>Infomática</option>
+                    <option value="2">Marketing</option>
+                    <option value="3">Ventas</option>
+                </select>
+                <br>
+            <p>Descripción:<br>
+                <textarea name="texto" rows="3" cols="50">Describa la incidencia...</textarea>
+            </p>
+
+            <p> Contraseña: <br>
+                <input type="password" name="password">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Botones de reset y envío:</legend>
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

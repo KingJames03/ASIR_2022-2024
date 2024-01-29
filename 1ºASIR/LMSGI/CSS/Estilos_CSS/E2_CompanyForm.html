@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Company</title>
+  <link rel="stylesheet" href="CompanyForm.css">
+</head>
+
+<body>
+  <table class="whiteborder" align="center">
+    <tr>
+      <td colspan="2"><a href="E2_Company.html"><img src="header.jpg"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><a href="Models.html"><img src="btn_models.gif"></a><a href="CompanyHistory.html"><img
+        src="btn_history.gif"></a><a href="FindAdealer.html"><img src="btn_dealers.gif"></a><a
+      href="mailto:contactus@flyreels.com"><img src="btn_contact.gif"></a></td>
+    </tr>
+    <tr>
+      <td>
+        <p class="homemaincopy">Si Ud quiere conectar con nosotros rellene el siguiente formulario y nuestras comerciales le atenderán a la
+          mayor brevedad posible</p>
+        <hr class="hr">
+        <form>
+          <label for="pais">Seleccione pais:</label>
+          <select name="pais">
+            <option value="España">España</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Francia">Francia</option>
+            <option value="Italia">Italia</option>
+            <option value="Alemania">Alemania</option>
+          </select>
+          <br>
+          <br>
+          <label for="provincia">Seleccione provincia:</label>
+          <select name="provincia">
+            <option value="Valencia">Valencia</option>
+            <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Sevilla">Sevilla</option>
+          </select>
+          <br>
+          <br>
+          <label for="number">Dirección postal:<input type="number" name="number"></label>
+          <br>
+          <br>
+          <label for="number">Téfono de contacto<input type="number" name="number"></label>
+          <br>
+          <br>
+          <label for="text">Persona de contacto:<input type="text" name="text"></label>
+          <br>
+          <br>
+          <label for="radio">Es cliente nuestro<input type="radio" name="radio">SI<input type="radio" name="radio" checked>NO</label>
+          <br>
+          <br>
+          <input type="submit" class="boton" value="Enviar>>>" onclick="alert('El formulario ha sido enviado')">
+          <br>
+          <br>
+          <hr class="hr">
+          <label for="email">Recibir nuestras noticias:<input type="email" placeholder="Introduzca email"></label>
+          <br>
+          <br>
+          <input type="submit" class="boton" value="Subscribir>>>" onclick="alert('Te has suscrito con éxito')">
+          <br>
+          <br>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <a href="Models.html" class="footerlinks">Models</a>
+  <a href="CompanyHistory.html" class="footerlinks">Company History</a>
+  <a href="FindAdealer.html" class="footerlinks">Find a Dealer</a>
+  <a href="mailto:contactus@flyreels.com" class="footerlinks">Contact Us</a>
+  <a href="E2_CompanyForm.html" class="footerlinks">Form</a>
+
+</body>
+
+</html>
